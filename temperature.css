@@ -1,0 +1,57 @@
+body {
+    background-image: url("https://media.istockphoto.com/id/1392910135/photo/wooden-thermometer-showing-high-temperature-on-sunny-day.jpg?s=2048x2048&w=is&k=20&c=qsgeAVJobHMLIQg-Au4cfRFjE7FuShpgmNBWWfaU8pU=");
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    /* background-color: #fff; */
+    z-index: 0;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    
+    margin: 200px auto;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    
+}
+h1 {
+    color: black;
+    text-decoration: underline;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 24px;
+}
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #007BFF;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #0056b3;
+}
+p#result {
+    font-size: 31px;
+    margin-top: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    color: black;
+    /* background-color: #81e981; */
+}
